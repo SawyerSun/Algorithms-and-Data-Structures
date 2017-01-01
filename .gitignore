@@ -1,0 +1,17 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+### Maven
+target/
+log/
+out/
+
+### Intellij
+.idea/
+*.iml
