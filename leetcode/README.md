@@ -11,5 +11,6 @@
 * 2. **Medium** Add Two Numbers
 * 3. **Medium** Longest Substring Without Repeating Characters
 * 4. **Hard** Median of Two Sorted Arrays
+* 5. **Medium** Longest Palindromic Substring
 
 
