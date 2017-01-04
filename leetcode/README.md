@@ -15,5 +15,7 @@
 * 6. **Easy** ZigZag Conversion
 * 7. **Easy** Reverse Integer
 * 8. **Easy** String to Integer (atoi)
+* 9. **Easy** Palindrome Number
+* 10. **Hard**  Regular Expression Matching
 
 
