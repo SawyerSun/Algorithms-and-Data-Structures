@@ -71,7 +71,7 @@ public class LongestPalindromicSubstring {
      * 中间展开。选定中点向两边展开，判断是否为Palindrome。
      * 时间复杂度: O(n^2)
      * 空间复杂度: O(1)
-     * Leetcode运行时间：
+     * Leetcode运行时间：13ms
      */
     public String longestPalindrome3(String s) {
         int l = 0, r = 0;
