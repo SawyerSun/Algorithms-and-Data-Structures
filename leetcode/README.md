@@ -19,5 +19,7 @@
 * 10. **Hard**  Regular Expression Matching
 * 11. **Medium** Container With Most Water
 * 12. **Medium** Integer to Roman
+* 13. **Easy** Roman to Integer
+* 14. **Easy** Longest Common Prefix
 
 
