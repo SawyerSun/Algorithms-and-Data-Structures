@@ -21,5 +21,7 @@
 * 12. **Medium** Integer to Roman
 * 13. **Easy** Roman to Integer
 * 14. **Easy** Longest Common Prefix
+* 15. **Medium** 3Sum
+* 16. **Medium** 3Sum Closest
 
 
