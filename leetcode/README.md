@@ -23,5 +23,7 @@
 * 14. **Easy** Longest Common Prefix
 * 15. **Medium** 3Sum
 * 16. **Medium** 3Sum Closest
+* 17. **Medium** Letter Combinations of a Phone Number
+* 18. **Medium** 4Sum
 
 
