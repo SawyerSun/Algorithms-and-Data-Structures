@@ -25,5 +25,7 @@
 * 16. **Medium** 3Sum Closest
 * 17. **Medium** Letter Combinations of a Phone Number
 * 18. **Medium** 4Sum
+* 19. **Easy** Remove Nth Node From End of List
+* 20. **Easy** Valid Parentheses
 
 
