@@ -3,6 +3,7 @@ package two.StacksandQueues;
 import edu.princeton.cs.algs4.StdOut;
 import org.junit.Assert;
 import org.junit.Test;
+import two.RandomizedQueue;
 
 import java.util.Iterator;
 

@@ -1,4 +1,4 @@
-package two.StacksandQueues;
+package two;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
