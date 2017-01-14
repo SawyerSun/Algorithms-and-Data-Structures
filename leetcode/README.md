@@ -27,5 +27,7 @@
 * 18. **Medium** 4Sum
 * 19. **Easy** Remove Nth Node From End of List
 * 20. **Easy** Valid Parentheses
+* 21. **Easy** Merge Two Sorted Lists
+* 22. **Medium** Generate Parentheses
 
 
