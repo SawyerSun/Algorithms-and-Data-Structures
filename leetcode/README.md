@@ -29,5 +29,7 @@
 * 20. **Easy** Valid Parentheses
 * 21. **Easy** Merge Two Sorted Lists
 * 22. **Medium** Generate Parentheses
+* 23. **Hard** Merge k Sorted Lists
+* 24. **Easy** Swap Nodes in Pairs
 
 
