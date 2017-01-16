@@ -31,5 +31,6 @@
 * 22. **Medium** Generate Parentheses
 * 23. **Hard** Merge k Sorted Lists
 * 24. **Easy** Swap Nodes in Pairs
+* 25. **Hard** Reverse Nodes in k-Group
 
 
