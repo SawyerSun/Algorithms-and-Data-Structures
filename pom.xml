@@ -29,6 +29,7 @@
     <modules>
         <module>leetcode</module>
         <module>coursera-algorithms-princeton</module>
+        <module>base</module>
     </modules>
 
     <dependencyManagement>
