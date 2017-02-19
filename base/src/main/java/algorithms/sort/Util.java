@@ -37,7 +37,7 @@ public class Util {
     }
 
     /**
-     * 判断a是否小于b（a<b）
+     * 判断a是否小于b
      *
      * @param a 对象a
      * @param b 对象b
@@ -45,6 +45,18 @@ public class Util {
      */
     public static boolean less(Comparable a, Comparable b) {
         return a.compareTo(b) < 0;
+    }
+
+    /**
+     * 判断数组索引i元素是否小于索引j元素
+     *
+     * @param a 数组
+     * @param i 索引
+     * @param j 索引
+     * @return true or false
+     */
+    public static boolean less(Comparable[] a, int i, int j) {
+        return a[i].compareTo(a[j]) < 0;
     }
 
     /**

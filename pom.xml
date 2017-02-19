@@ -30,6 +30,7 @@
         <module>leetcode</module>
         <module>coursera-algorithms-princeton</module>
         <module>base</module>
+        <module>sword-to-offer</module>
     </modules>
 
     <dependencyManagement>
