@@ -1,4 +1,4 @@
-package two.StacksandQueues;
+package two;
 
 import edu.princeton.cs.algs4.StdOut;
 import org.junit.Assert;
