@@ -36,5 +36,6 @@
 * 27. **Easy** Remove Element
 * 28. **Easy** Implement strStr()
 * 29. **Medium** Divide Two Integers
+* 30. **Hard** Substring with Concatenation of All Words
 
 
