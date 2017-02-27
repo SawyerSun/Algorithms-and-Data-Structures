@@ -1,4 +1,4 @@
-package Three;
+package three;
 
 import org.junit.Assert;
 import org.junit.Before;

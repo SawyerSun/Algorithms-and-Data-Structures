@@ -1,4 +1,4 @@
-package Four;
+package four;
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
@@ -11,6 +11,7 @@ import java.util.List;
  * @version 1.0    2017/2/18 15:31
  */
 public class Board {
+    // char[]比int[]需要更少的空间
     private char[] cells;
     private int dimension;
     private int zero;

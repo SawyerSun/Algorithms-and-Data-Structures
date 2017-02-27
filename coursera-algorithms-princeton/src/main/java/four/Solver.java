@@ -1,4 +1,4 @@
-package Four;
+package four;
 
 import edu.princeton.cs.algs4.MinPQ;
 
