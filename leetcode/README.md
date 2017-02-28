@@ -37,5 +37,7 @@
 * 28. **Easy** Implement strStr()
 * 29. **Medium** Divide Two Integers
 * 30. **Hard** Substring with Concatenation of All Words
+* 31. **Medium** Next Permutation
+* 32. **Hard** Longest Valid Parentheses
 
 
