@@ -31,11 +31,11 @@ Monte Carlo方法模拟多次渗透系统，知道渗透的阈值。代码可见
 Dequeue是一个双端队列，它是栈和队列的升级版，支持首尾两端的插入和删除。要实现给定的API，并注意Corner cases。
 时间复杂度上，要求每个Dequeue操作和迭代器操作必须是常数时间；空间复杂度上，对于n个元素，使用的内存应该为48n + 192 bytes。
 小技巧就是使用课程中说到的哨兵sentinel来辅助实现Dequeue。
-代码可见[Deque](/src/main/java/two/Deque.java)。
+代码可见[Deque](/coursera-algorithms-princeton/src/main/java/two/Deque.java)。
 
 #### Randomized queue
 Randomized queue和栈、队列十分相似，区别在于remove操作是随机删除一个元素。性能要求和Dequeue类似。
-代码可见[RandomizedQueue](/src/main/java/two/RandomizedQueue.java)。
+代码可见[RandomizedQueue](/coursera-algorithms-princeton/src/main/java/two/RandomizedQueue.java)。
 
 
 ## 第3周
@@ -45,12 +45,12 @@ Randomized queue和栈、队列十分相似，区别在于remove操作是随机�
 
 #### Brute force
 暴力方法比较简单，直接枚举点p、q、r、s，判断任意两点是否斜率相同，如果是，则4点共线。这里不要求寻找5点及以上共线。时间复杂度为O(n^4)，空间复杂度O(n)。
-代码可见[BruteCollinearPoints](/src/main/java/three/BruteCollinearPoints.java)。
+代码可见[BruteCollinearPoints](/coursera-algorithms-princeton/src/main/java/three/BruteCollinearPoints.java)。
 
 #### A faster sorting-based solution
 快速方法使用一种基于排序的策略：选定起始点p，对每个q，计算pq的斜率并排序，检查序列中是否有3个以及上相邻点有相同的斜率。
 如果存在，则表示这些点共线。时间复杂度为O(n)+O(log n)+O(n)，分别对应枚举、排序和遍历查找，空间复杂度还是为O(n)。
-代码可见[FastCollinearPoints](/src/main/java/three/FastCollinearPoints.java)。
+代码可见[FastCollinearPoints](/coursera-algorithms-princeton/src/main/java/three/FastCollinearPoints.java)。
 
 
 ## 第4周
@@ -77,7 +77,7 @@ Randomized queue和栈、队列十分相似，区别在于remove操作是随机�
 
 #### 解法
 通过上面的分析过程，写出具体算法已经不是很难。需要注意的是，作业评价对Solver类的内存要求很严格，需要好好考虑如何节省内存。
-由于时间关系，本人提交的作业没有通过内存评价。具体代码可见[8 puzzle](/src/main/java/four)。
+由于时间关系，本人提交的作业没有通过内存评价。具体代码可见[8 puzzle](/coursera-algorithms-princeton/src/main/java/four)。
 
 ## 第5周
 
@@ -88,10 +88,10 @@ Randomized queue和栈、队列十分相似，区别在于remove操作是随机�
 #### Brute-force
 暴力方法要求insert()和contains()是O(log n)的复杂度，要求nearest()和range()是O(N)的复杂度。
 题目要求中也写明了可以使用algs4.jar中的SET或者java.util.TreeSet，这两个集合底层都是使用红黑树的，可以满足复杂度的要求。
-代码比较简单，详细可见[PointSet](/src/main/java/five/PointSET.java)。
+代码比较简单，详细可见[PointSet](/coursera-algorithms-princeton/src/main/java/five/PointSET.java)。
 
 #### 2d-tree
 2d-tre方法BST的实现。节点需要保存当前点、矩形块、左右子树和划分方向。划分方向用true表示X轴划分，用false表示y轴划分。
 insert、get和draw都采用递归实现，十分简单；range和nearest采用BFS方法遍历2d-tree，根据说明的中的方法，进行剪枝得到结果。
-整个代码参考BFS写法，还是比较简单的，详细代码可见[KdTree](/src/main/java/five/KdTree.java)。
+整个代码参考BFS写法，还是比较简单的，详细代码可见[KdTree](/coursera-algorithms-princeton/src/main/java/five/KdTree.java)。
 
