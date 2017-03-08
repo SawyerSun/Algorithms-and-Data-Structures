@@ -24,14 +24,15 @@ public class Solution5 {
 
     /**
      * pop是从栈2出栈元素，若栈2为空，将栈1出栈压入栈2；若栈2不为空，直接出栈。
+     *
      * @return
      */
     public int pop() {
-        if (stack1.empty()&&stack2.empty()){
+        if (stack1.empty() && stack2.empty()) {
             throw new RuntimeException("Stack is empty");
         }
-        if (stack2.empty()){
-            while (!stack1.empty()){
+        if (stack2.empty()) {
+            while (!stack1.empty()) {
                 stack2.push(stack1.pop());
             }
         }

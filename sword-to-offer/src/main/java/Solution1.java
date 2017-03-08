@@ -14,13 +14,13 @@ public class Solution1 {
      * 运行时间：185ms
      * 占用内存：5022K
      */
-    public boolean Find(int target, int [][] array) {
-        int rows = array.length,cols = array[0].length;
-        if(rows>=0 && cols>=0){
-            int row = 0,col = cols-1;
-            while (row<rows&&col>=0){
-                if (array[row][col]==target)return true;
-                else if (array[row][col]>target)col--;
+    public boolean Find(int target, int[][] array) {
+        int rows = array.length, cols = array[0].length;
+        if (rows >= 0 && cols >= 0) {
+            int row = 0, col = cols - 1;
+            while (row < rows && col >= 0) {
+                if (array[row][col] == target) return true;
+                else if (array[row][col] > target) col--;
                 else row++;
             }
         }

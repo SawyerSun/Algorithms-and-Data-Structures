@@ -12,7 +12,7 @@ import java.util.Deque;
  */
 public class Solution3 {
     /**
-     * 递归解法.
+     * 递归解法
      * 运行时间：33ms
      * 占用内存：629k
      */
