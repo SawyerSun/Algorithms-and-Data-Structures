@@ -12,8 +12,8 @@ public class Solution5 {
     // 元素从栈1出栈，进入栈2，正好从先进后去变为先进先出
     //运行时间：32ms
     //占用内存：528k
-    Stack<Integer> stack1 = new Stack<Integer>();
-    Stack<Integer> stack2 = new Stack<Integer>();
+    private Stack<Integer> stack1 = new Stack<>();
+    private Stack<Integer> stack2 = new Stack<>();
 
     /**
      * push直接压入栈1

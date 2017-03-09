@@ -42,13 +42,4 @@ public class Solution15 {
         }
         return dummy;
     }
-
-    class ListNode {
-        int val;
-        ListNode next = null;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-    }
 }
