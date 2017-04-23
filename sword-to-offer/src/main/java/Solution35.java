@@ -18,10 +18,6 @@ import java.util.Arrays;
  * @version 1.0    2017/4/22 15:07
  */
 public class Solution35 {
-    public static void main(String[] args) {
-        Solution35 s = new Solution35();
-        System.out.println(s.InversePairs2(new int[]{1, 2, 3, 4, 5, 6, 7, 0}));
-    }
 
     /**
      * O(n^2) 复杂度，超出时间要求
@@ -38,7 +34,7 @@ public class Solution35 {
     }
 
     /**
-     * 参考剑指Offer
+     * 参考剑指Offer，复杂度O（n log n）
      * 归并排序的改进，把数据分成前后两个数组(递归分到每个数组仅有一个数据项)，
      * 合并数组，合并时，出现前面的数组值array[i]大于后面数组值array[j]时；则前面
      * 数组array[i]~array[mid]都是大于array[j]的，count += mid+1 - i
