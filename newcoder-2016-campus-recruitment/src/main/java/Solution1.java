@@ -31,6 +31,8 @@ public class Solution1 {
 
     /**
      * 返回git树上两点的最近分割点
+     * 运行时间：50ms
+     * 占用内存：840k
      *
      * @param matrix 接邻矩阵，表示git树，matrix[i][j] == '1' 当且仅当git树中第i个和第j个节点有连接，节点0为git树的根节点
      * @param indexA 节点A的index
