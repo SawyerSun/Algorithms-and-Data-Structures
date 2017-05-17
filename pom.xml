@@ -31,6 +31,7 @@
         <module>coursera-algorithms-princeton</module>
         <module>base</module>
         <module>sword-to-offer</module>
+        <module>newcoder-2016-campus-recruitment</module>
     </modules>
 
     <dependencyManagement>
