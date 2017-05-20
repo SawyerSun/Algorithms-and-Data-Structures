@@ -4,5 +4,6 @@
 ## 仓库目录
 * [Leetcode](/leetcode)：Leetcode算法题，java解法。
 * [Coursera-Algorithms-Princeton](/coursera-algorithms-princeton)：Coursera普林斯顿大学Algorithms课程作业。
-* [Sword-to-Offer](/sword-to-offer):[牛客网剑指offer的OJ算法题](https://www.nowcoder.com/ta/coding-interviews)，java解法。
+* [Sword-to-Offer](/sword-to-offer)：[牛客网剑指offer的OJ算法题](https://www.nowcoder.com/ta/coding-interviews)，java解法。
+* [newcoder-2016-campus-recruitment](/newcoder-2016-campus-recruitment)：牛客网2016校招真题。
 * [Base](/base):基础的算法和数据结构汇总。
