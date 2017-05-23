@@ -40,6 +40,7 @@
 31. **Medium**  Next Permutation
 32. **Hard**  Longest Valid Parentheses
 33. **Medium**  Search in Rotated Sorted Array
+34. **Medium**  Search for a Range
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 
