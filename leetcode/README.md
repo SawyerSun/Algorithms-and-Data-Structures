@@ -43,7 +43,7 @@
 34. **Medium** Search for a Range
 35. **Easy** Search Insert Position
 36. **Medium** Valid Sudoku
-37. 
+37. **Hard** Sudoku Solver
 38. **Easy** Count and Say
 39. **Medium** Combination Sum
 103. **Medium** Binary Tree Zigzag Level Order Traversal
