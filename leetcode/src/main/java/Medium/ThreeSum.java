@@ -27,7 +27,7 @@ public class ThreeSum {
      * 两个指针同时遍历。
      * 时间复杂度: O(n^2)
      * 空间复杂度: O(1)
-     * Leetcode运行时间: 7 ms
+     * 运行时间: 7 ms
      */
     public List<List<Integer>> threeSum(int[] nums){
         Arrays.sort(nums);

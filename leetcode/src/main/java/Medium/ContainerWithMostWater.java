@@ -17,7 +17,7 @@ public class ContainerWithMostWater {
      * 暴力方法，两轮遍历。
      * 时间复杂度: O(n^2)
      * 空间复杂度: O(1)
-     * Leetcode运行时间：Time Limit Exceeded
+     * 运行时间：Time Limit Exceeded
      */
     public int maxArea1(int[] height) {
         int maxarea = 0;

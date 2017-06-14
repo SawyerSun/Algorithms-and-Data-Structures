@@ -16,7 +16,7 @@ public class SearchinRotatedSortedArray {
      * 二分查找
      * 时间复杂度：O(log n)
      * 空间复杂度： O(1)
-     * Runtime: 15 ms
+     * 运行时间: 15 ms
      */
     public int search(int[] nums, int target) {
         if (null == nums || nums.length == 0) {

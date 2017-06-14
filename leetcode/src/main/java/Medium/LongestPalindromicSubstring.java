@@ -22,7 +22,7 @@ public class LongestPalindromicSubstring {
      * 暴力方法。输入为很长的重复字符串时，运行超时。
      * 时间复杂度: O(n^3)
      * 空间复杂度: O(1)
-     * Leetcode运行时间：Time Limit Exceeded
+     * 运行时间：Time Limit Exceeded
      */
     public String longestPalindrome1(String s) {
         int len = s.length();
@@ -50,7 +50,7 @@ public class LongestPalindromicSubstring {
      * 动态规划。输入为很长的重复字符串时，运行超时。
      * 时间复杂度: O(n^2)
      * 空间复杂度: O(n^2)
-     * Leetcode运行时间：Time Limit Exceeded
+     * 运行时间：Time Limit Exceeded
      */
     public String longestPalindrome2(String s) {
         int len = s.length();
@@ -71,7 +71,7 @@ public class LongestPalindromicSubstring {
      * 中间展开。选定中点向两边展开，判断是否为Palindrome。
      * 时间复杂度: O(n^2)
      * 空间复杂度: O(1)
-     * Leetcode运行时间：13ms
+     * 运行时间：13ms
      */
     public String longestPalindrome3(String s) {
         int l = 0, r = 0;

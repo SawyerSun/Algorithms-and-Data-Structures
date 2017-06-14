@@ -20,7 +20,7 @@ public class LetterCombinationsofaPhoneNumber {
     /**
      * 时间复杂度: O(n)
      * 空间复杂度: O(1)
-     * Leetcode运行时间：1 ms
+     * 运行时间：1 ms
      */
     public List<String> letterCombinations(String digits) {
         LinkedList<String> res = new LinkedList<>();

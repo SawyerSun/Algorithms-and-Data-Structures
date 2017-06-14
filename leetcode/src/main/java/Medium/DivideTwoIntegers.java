@@ -15,7 +15,7 @@ public class DivideTwoIntegers {
      * 被除数不断减去除数的倍数，确定结果
      * 时间复杂度: O(n)
      * 空间复杂度: O(1)
-     * Runtime: 47 ms
+     * 运行时间: 47 ms
      */
     public int divide(int dividend, int divisor) {
         // 处理越界问题

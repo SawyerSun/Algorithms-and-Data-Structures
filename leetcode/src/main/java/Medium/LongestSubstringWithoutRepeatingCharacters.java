@@ -24,7 +24,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
      * 暴力遍历，最终运行超时！！！
      * 时间复杂度：O(n^3)
      * 空间复杂度： O(min(n, m))，26字母和s长度中较小的值
-     * Leetcode运行时间：Time Limit Exceeded ！
+     * 运行时间：Time Limit Exceeded ！
      */
     public int lengthOfLongestSubstring1(String s) {
         int n = s.length();
@@ -51,7 +51,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
      * 滑动窗口，使用HashSet保存滑动窗口[i,j），不断递进更新最大值
      * 时间复杂度：O(2n) = O(n)
      * 空间复杂度： O(min(n, m))，26字母和s长度中较小的值
-     * Leetcode运行时间：24 ms
+     * 运行时间：24 ms
      */
     public int lengthOfLongestSubstring2(String s) {
         int n = s.length();

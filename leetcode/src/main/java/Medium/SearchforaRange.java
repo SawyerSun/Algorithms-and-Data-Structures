@@ -30,7 +30,7 @@ public class SearchforaRange {
      * 二分搜索找到第一个等于target的 和第一个大于target的
      * 时间复杂度 O(log n)
      * 空间复杂度 O（1）
-     * Leetcode运行时间: 9 ms
+     * 运行时间: 9 ms
      */
     public int[] searchRange(int[] nums, int target) {
         int start = firstGreaterEqual(nums, target);

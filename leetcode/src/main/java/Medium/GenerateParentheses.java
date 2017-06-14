@@ -25,7 +25,7 @@ public class GenerateParentheses {
      * 回溯法
      * 时间复杂度: O(n)
      * 空间复杂度: O(n)
-     * Leetcode运行时间：4ms
+     * 运行时间：4ms
      */
     public List<String> generateParenthesis(int n) {
         List<String> list = new ArrayList<>();

@@ -14,7 +14,7 @@ public class IntegertoRoman {
      * 使用类似字母表的设计。
      * 时间复杂度: O(1)
      * 空间复杂度: O(1)
-     * Leetcode运行时间：11ms
+     * 运行时间：11ms
      */
     public String intToRoman(int num) {
         String M[] = {"", "M", "MM", "MMM"};

@@ -24,7 +24,7 @@ public class NextPermutation {
      *
      * 时间复杂度: O(n)
      * 空间复杂度: O(1)
-     * Runtime: 23 ms
+     * 运行时间: 23 ms
      */
     public void nextPermutation(int[] nums) {
         if (nums.length <= 1) return;

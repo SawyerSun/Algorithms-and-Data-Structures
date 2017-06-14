@@ -31,7 +31,7 @@ public class CombinationSumII {
      * 回溯法
      * 时间复杂度: O(n^2)
      * 空间复杂度: O(n)
-     * LeetCode运行时间：25ms
+     * 运行时间：25ms
      */
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();

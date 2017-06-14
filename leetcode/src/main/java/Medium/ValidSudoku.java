@@ -19,7 +19,7 @@ public class ValidSudoku {
      * set保存行、列、方格中的字符，确保没有重复出现
      * 时间复杂度 O(n^2)
      * 空间复杂度 O（1）
-     * Leetcode运行时间: 49 ms
+     * 运行时间: 49 ms
      **/
     public boolean isValidSudoku(char[][] board) {
         for (int i = 0; i < board.length; i++) {

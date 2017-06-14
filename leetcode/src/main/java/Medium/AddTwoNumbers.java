@@ -18,7 +18,7 @@ public class AddTwoNumbers {
      * 进位（carry）是否超过0，需要增加一个节点。
      * 时间复杂度 : O(max(m, n)), m、n分别为链表l1和l2的长度.
      * 空间复杂度 : O(max(m,n)). 新链表长度最大为 max(m,n) + 1.
-     * Leetcode运行时间: 4 ms
+     * 运行时间: 4 ms
      */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(0);

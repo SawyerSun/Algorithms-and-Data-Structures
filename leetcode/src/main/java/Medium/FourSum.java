@@ -28,7 +28,7 @@ public class FourSum {
      * 基于3sum的O(n^3)方法
      * 时间复杂度: O(n^3)
      * 空间复杂度: O(1)
-     * Leetcode运行时间：54 ms
+     * 运行时间：54 ms
      */
     public List<List<Integer>> fourSum(int[] nums, int target) {
         ArrayList<List<Integer>> res = new ArrayList<>();

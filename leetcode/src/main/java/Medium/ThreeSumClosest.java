@@ -11,7 +11,7 @@ public class ThreeSumClosest {
      * 两个指针同时遍历。
      * 时间复杂度: O(n^2)
      * 空间复杂度: O(1)
-     * Leetcode运行时间: 15 ms
+     * 运行时间: 15 ms
      */
     public int threeSumClosest(int[] nums, int target) {
         int result = nums[0] + nums[1] + nums[nums.length - 1];

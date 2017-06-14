@@ -31,7 +31,7 @@ public class BinaryTreeZigzagLevelOrderTraversal {
      * 使用LinkedList和ArrayList，内部外部list插入复杂度都是O（1）
      * 时间复杂度: O(n)
      * 空间复杂度: O(1)
-     * Runtime: 2 ms
+     * 运行时间: 2 ms
      */
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> sol = new ArrayList<>();
