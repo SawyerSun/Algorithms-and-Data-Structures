@@ -16,7 +16,7 @@ public class ValidParentheses {
      * stack的典型应用场景。
      * 时间复杂度: O(n)
      * 空间复杂度: O(n)
-     * Leetcode运行时间: 1 ms
+     * 运行时间: 1 ms
      */
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();

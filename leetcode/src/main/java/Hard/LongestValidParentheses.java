@@ -16,7 +16,7 @@ import java.util.Deque;
 public class LongestValidParentheses {
     /**
      * 用栈解决很容易超时！
-     * Time Limit Exceeded
+     * 运行时间：Time Limit Exceeded
      */
     public int longestValidParentheses(String s) {
         char[] chars = s.toCharArray();
@@ -57,7 +57,7 @@ public class LongestValidParentheses {
      *
      * 时间复杂度：O(n)
      * 空间复杂度：O(n)
-     * Runtime: 19 ms
+     * 运行时间: 19 ms
      */
     public int longestValidParentheses2(String s) {
         // 存储到目前位置，有几组有效对

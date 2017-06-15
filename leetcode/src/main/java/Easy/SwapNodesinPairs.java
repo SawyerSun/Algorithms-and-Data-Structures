@@ -19,7 +19,7 @@ public class SwapNodesinPairs {
      * 递归解法。
      * 时间复杂度：O(n)
      * 空间复杂度：O(1)
-     * Leetcode运行时间：1 ms
+     * 运行时间：1 ms
      */
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) {
@@ -36,7 +36,7 @@ public class SwapNodesinPairs {
      * 两个指针前后交替。
      * 时间复杂度：O(n)
      * 空间复杂度：O(1)
-     * Leetcode运行时间：1 ms
+     * 运行时间：1 ms
      */
     public ListNode swapPairs2(ListNode head) {
         ListNode dummy = new ListNode(0);

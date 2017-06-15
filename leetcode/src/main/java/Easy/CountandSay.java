@@ -17,6 +17,11 @@ package Easy;
  * @version 1.0    2017/5/26 21:37
  */
 public class CountandSay {
+    /**
+     * 时间复杂度：O(n^2)
+     * 空间复杂度：O(1)
+     * 运行时间: 12ms
+     */
     public String countAndSay(int n) {
         StringBuilder cur = new StringBuilder("1");
         StringBuilder prev;

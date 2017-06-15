@@ -25,7 +25,7 @@ public class TwoSum {
      * 两层循环，暴力遍历
      * 时间复杂度：O(n^2)
      * 空间复杂度：O(1)
-     * Leetcode运行时间：39 ms
+     * 运行时间：39 ms
      */
     public int[] twoSum1(int[] nums, int target) {
         for (int i = 0; i <nums.length ; i++) {
@@ -42,7 +42,7 @@ public class TwoSum {
      * 使用HashMap存储每个数字，将第两层循坏转变成，在HashMap中寻找差值（O(1)时间复杂度）。空间换时间的概念体现。
      * 时间复杂度：O(n)
      * 空间复杂度：O(n)
-     * Leetcode运行时间：8 ms
+     * 运行时间：8 ms
      */
     public int[] twoSum2(int[] nums, int target) {
         Map<Integer,Integer> map = new HashMap<>();
@@ -63,7 +63,7 @@ public class TwoSum {
      * 对解法2的优化，两次遍历可以合并成一次。
      * 时间复杂度：O(n)
      * 空间复杂度：O(n)
-     * Leetcode运行时间：6 ms
+     * 运行时间：6 ms
      */
     public int[] twoSum3(int[] nums, int target) {
         Map<Integer,Integer> map = new HashMap<>();

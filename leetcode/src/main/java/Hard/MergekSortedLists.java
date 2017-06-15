@@ -15,7 +15,7 @@ public class MergekSortedLists {
      * 使用优先队列
      * 时间复杂度：O(n * log (K))
      * 空间复杂度：O(n)
-     * Leetcode运行时间：27 ms
+     * 运行时间：27 ms
      */
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) return null;
@@ -55,7 +55,7 @@ public class MergekSortedLists {
      * 递归的归并解法。
      * 时间复杂度：O(n * log (n))
      * 空间复杂度：O(n)
-     * Leetcode运行时间：13 ms
+     * 运行时间：13 ms
      */
     public ListNode mergeKLists2(ListNode[] lists) {
         return partion(lists, 0, lists.length - 1);

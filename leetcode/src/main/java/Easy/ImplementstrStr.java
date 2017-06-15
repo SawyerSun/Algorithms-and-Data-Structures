@@ -12,14 +12,18 @@ package Easy;
  */
 public class ImplementstrStr {
     /**
-     * Runtime: 6 ms
+     * 调用indexOf函数
+     * 运行时间: 6 ms
      */
     public int strStr(String haystack, String needle) {
         return haystack.indexOf(needle);
     }
 
     /**
-     * Runtime: 14 ms
+     * 遍历
+     * 时间复杂度：O(n)
+     * 空间复杂度：O(1)
+     * 运行时间: 14 ms
      */
     public int strStr2(String haystack, String needle) {
         for (int i = 0; ; i++) {

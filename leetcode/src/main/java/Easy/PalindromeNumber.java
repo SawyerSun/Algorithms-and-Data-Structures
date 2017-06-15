@@ -18,7 +18,7 @@ public class PalindromeNumber {
     /**
      * 'No extra space'意味着 O(1) 空间复杂度，而'extra space'通常意味着 O(n) 空间复杂度.
      * 时间复杂度：O(n)
-     * Leetcode运行时间：13ms
+     * 运行时间：13ms
      */
     public boolean isPalindrome(int x) {
         if (x < 0 || (x != 0 && x % 10 == 0)) {

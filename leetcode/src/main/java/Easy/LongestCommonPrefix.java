@@ -13,7 +13,7 @@ public class LongestCommonPrefix {
      * 暴力方法，使用indexOf检查字符串是否在目标字符串中。以第一个字符串为最初最长前缀，不断比较，不断更新。
      * 时间复杂度: O(s), s为所有字符串所有字符数。
      * 空间复杂度: O(1)
-     * Leetcode运行时间: 9 ms
+     * 运行时间: 9 ms
      */
     public String longestCommonPrefix1(String[] strs) {
         if (strs == null || strs.length == 0) {
@@ -35,7 +35,7 @@ public class LongestCommonPrefix {
      * 垂直扫描匹配。
      * 时间复杂度: O(n^2)
      * 空间复杂度: O(1)
-     * Leetcode运行时间: 12 ms
+     * 运行时间: 12 ms
      */
     public String longestCommonPrefix2(String[] strs) {
         if (strs == null || strs.length == 0) {
@@ -56,7 +56,7 @@ public class LongestCommonPrefix {
      * 分而治之的递归解法。当输入过多，会堆栈溢出!!!
      * 时间复杂度: O(s), s为所有字符串所有字符数。
      * 空间复杂度: O(1)
-     * Leetcode运行时间: StackOverflowError
+     * 运行时间: StackOverflowError
      */
     @Deprecated
     public String longestCommonPrefix3(String[] strs) {
@@ -91,7 +91,7 @@ public class LongestCommonPrefix {
      * 二分查找
      * 时间复杂度: O(s*log(n)), s为所有字符串所有字符数。
      * 空间复杂度: O(1)
-     * Leetcode运行时间: 11 ms
+     * 运行时间: 11 ms
      */
     public String longestCommonPrefix4(String[] strs) {
         if (strs == null || strs.length == 0) {

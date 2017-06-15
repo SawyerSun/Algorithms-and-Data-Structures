@@ -25,7 +25,7 @@ public class MedianofTwoSortedArrays {
      * 暴力方法，使用新数组int[m+n]来保存排序结果，时间复杂度不满足要求！
      * 时间复杂度：O(m + n)
      * 空间复杂度：O(m + n)
-     * Leetcode运行时间：66 ms
+     * 运行时间：66 ms
      */
     public double findMedianSortedArrays1(int[] nums1, int[] nums2) {
         int m = nums1.length, n = nums2.length, i = 0, j = 0, index = 0;
@@ -53,7 +53,7 @@ public class MedianofTwoSortedArrays {
      * help函数getKth使用地柜二分搜索，详细说明见下面注释。
      * 时间复杂度：O(log(m + n))
      * 空间复杂度：O(1)
-     * Leetcode运行时间：66 ms
+     * 运行时间：66 ms
      */
     public double findMedianSortedArrays2(int[] nums1, int[] nums2) {
         int m = nums1.length, n = nums2.length, l = (m + n + 1) / 2, r = (m + n + 2) / 2;
@@ -96,7 +96,7 @@ public class MedianofTwoSortedArrays {
      * https://discuss.leetcode.com/topic/4996/share-my-o-log-min-m-n-solution-with-explanation
      * 时间复杂度：O(log(m + n))
      * 空间复杂度：O(1)
-     * Leetcode运行时间：5 ms
+     * 运行时间：5 ms
      */
     public double findMedianSortedArrays3(int[] A, int[] B) {
         int m = A.length, n = B.length;

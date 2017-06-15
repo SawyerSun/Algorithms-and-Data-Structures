@@ -23,7 +23,7 @@ public class ZigZagConversion {
      * 使用StringBuilder按序append对应字符。
      * 时间复杂度: O(n)
      * 空间复杂度: O(n)
-     * Leetcode运行时间: 11 ms
+     * 运行时间: 11 ms
      */
     public String convert(String s, int numRows) {
         char[] chars = s.toCharArray();

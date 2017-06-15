@@ -49,6 +49,8 @@
 40. **Medium** Combination Sum II
 41. **Hard** First Missing Positive
 42. **Hard** Trapping Rain Water
+43. **Medium** Multiply Strings
+44. **Hard** Wildcard Matching
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 

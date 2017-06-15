@@ -21,7 +21,7 @@ public class ReverseNodesinkGroup {
      * 递归解法。先找到k+1，逆转前k个，递归逆转后部分。
      * 时间复杂度: O(n)
      * 空间复杂度: O(1)
-     * Leetcode运行时间: 7 ms
+     * 运行时间: 7 ms
      */
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode cur = head;

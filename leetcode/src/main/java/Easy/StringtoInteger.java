@@ -28,7 +28,7 @@ public class StringtoInteger {
      * 各种边界问题和异常都需要考虑。
      * 时间复杂度: O(n)
      * 空间复杂度: O(1)
-     * Leetcode运行时间: 4 ms
+     * 运行时间: 4 ms
      */
     public static int myAtoi(String str) {
         int sign = 1, total = 0, index = 0;

@@ -18,7 +18,7 @@ public class FirstMissingPositive {
      * 将所有正整数放置在其应该在的位置
      * 时间复杂度: O(n)
      * 空间复杂度: O(1)
-     * LeetCode运行时间: 12 ms
+     * 运行时间: 12 ms
      */
     public int firstMissingPositive(int[] nums) {
         int i = 0;

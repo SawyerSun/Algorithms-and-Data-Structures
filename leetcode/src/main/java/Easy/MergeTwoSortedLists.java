@@ -14,7 +14,7 @@ public class MergeTwoSortedLists {
      * 递归解法，但不是尾递归，当列表太长会出现栈溢出。
      * 时间复杂度：O(n)
      * 空间复杂度：O(1)
-     * Leetcode运行时间：1ms
+     * 运行时间：1ms
      */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (null == l1) {

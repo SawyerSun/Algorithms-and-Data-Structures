@@ -20,7 +20,7 @@ public class TrappingRainWater {
      * 计算左右最大值为栅栏，可以储水。每个位置可以储存的水量为较低的栅栏高度减去当前点的高度。
      * 时间复杂度: O(n)
      * 空间复杂度: O(1)
-     * Leetcode运行时间: 32 ms
+     * 运行时间: 32 ms
      */
     public int trap(int[] height) {
         int low = 0;

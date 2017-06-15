@@ -14,7 +14,7 @@ public class RemoveElement {
     /**
      * 时间复杂度: O(n)
      * 空间复杂度: O(1)
-     * Leetcode运行时间: 12 ms
+     * 运行时间: 12 ms
      */
     public int removeElement(int[] nums, int val) {
         int len = 0;

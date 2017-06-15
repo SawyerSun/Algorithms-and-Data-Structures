@@ -15,7 +15,7 @@ public class SudokuSolver {
      * 回溯法
      * 时间复杂度: O(n^2)
      * 空间复杂度: O(1)
-     * Leetcode运行时间:31 ms
+     * 运行时间: 31 ms
      */
     public void solveSudoku(char[][] board) {
         if (board == null || board.length == 0) return;

@@ -15,7 +15,7 @@ public class RomantoInteger {
      * 弄明白罗马数字和阿拉伯数字转换很关键。
      * 时间复杂度: O(n)
      * 空间复杂度: O(1)
-     * Leetcode运行时间: 8 ms
+     * 运行时间: 8 ms
      */
     public int romanToInt(String s) {
         int res = toNumber(s.charAt(0));

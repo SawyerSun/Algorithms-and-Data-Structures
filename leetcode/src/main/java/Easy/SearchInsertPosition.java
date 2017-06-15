@@ -21,7 +21,7 @@ public class SearchInsertPosition {
     /**
      * 时间复杂度：O(n)
      * 空间复杂度：O(1)
-     * Leetcode运行时间：6 ms
+     * 运行时间：6 ms
      */
     public int searchInsert(int[] nums, int target) {
         int low = 0;

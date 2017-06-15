@@ -11,7 +11,7 @@ public class RegularExpressionMatching {
      * 详细解释见：http://sawyersun.github.io/2016/09/02/Regular-Expression-Matching/
      * 时间复杂度: O(n^2)
      * 空间复杂度: O(n^2)
-     * Leetcode运行时间: 7 ms
+     * 运行时间: 7 ms
      */
     public boolean isMatch(String s, String p) {
         if (s == null || p == null) {

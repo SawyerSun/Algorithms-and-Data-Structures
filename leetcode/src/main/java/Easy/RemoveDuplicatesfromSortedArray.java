@@ -21,7 +21,7 @@ public class RemoveDuplicatesfromSortedArray {
      * 只是要求返回无重复数组的个数，所以并不需要真正去除。
      * 时间复杂度: O(n)
      * 空间复杂度: O(1)
-     * Leetcode运行时间: 1 ms
+     * 运行时间: 1 ms
      */
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0) return 0;

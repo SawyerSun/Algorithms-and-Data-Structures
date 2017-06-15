@@ -23,7 +23,7 @@ public class ReverseInteger {
      * 正负数不影响除法和求余结果，long可以避免溢出。
      * 时间复杂度: O(n)
      * 空间复杂度: O(1)
-     * Leetcode运行时间: 2 ms
+     * 运行时间: 2 ms
      */
     public int reverse(int x) {
         // 使用long存储返回结果，避免溢出问题

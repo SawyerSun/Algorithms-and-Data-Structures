@@ -26,7 +26,7 @@ public class SubstringwithConcatenationofAllWords {
      * 暴力遍历匹配，s和words过长时会超出运行时间。
      * 时间复杂度: O(n * m)
      * 空间复杂度: O(2m)
-     * runtime: Time Limit Exceeded
+     * 运行时间: Time Limit Exceeded
      */
     public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> res = new ArrayList<>();
@@ -64,7 +64,7 @@ public class SubstringwithConcatenationofAllWords {
      * 滑动窗口
      * 时间复杂度: O(n)
      * 空间复杂度: O(2m)
-     * Runtime: 35 ms
+     * 运行时间: 35 ms
      */
     public List<Integer> findSubstring2(String s, String[] words) {
         List<Integer> res = new ArrayList<>();
