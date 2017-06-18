@@ -52,6 +52,8 @@
 43. **Medium** Multiply Strings
 44. **Hard** Wildcard Matching
 45. **Hard** Jump Game II
+46. **Medium** Permutations
+47. **Medium** Permutations II
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 
