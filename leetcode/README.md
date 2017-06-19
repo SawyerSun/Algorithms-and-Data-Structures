@@ -54,6 +54,7 @@
 45. **Hard** Jump Game II
 46. **Medium** Permutations
 47. **Medium** Permutations II
+48. **Medium** Rotate Image
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 
