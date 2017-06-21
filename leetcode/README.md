@@ -56,6 +56,7 @@
 47. **Medium** Permutations II
 48. **Medium** Rotate Image
 49. **Medium** Group Anagrams
+50. **Medium** Pow(x, n)
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 
