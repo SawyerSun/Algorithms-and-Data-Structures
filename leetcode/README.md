@@ -57,6 +57,8 @@
 48. **Medium** Rotate Image
 49. **Medium** Group Anagrams
 50. **Medium** Pow(x, n)
+51. **Hard** N-Queens
+52. **Hard** N-Queens II
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 
