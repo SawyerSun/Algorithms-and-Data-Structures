@@ -60,6 +60,7 @@
 51. **Hard** N-Queens
 52. **Hard** N-Queens II
 53. **Easy** Maximum Subarray
+54. **Medium** Spiral Matrix
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 
