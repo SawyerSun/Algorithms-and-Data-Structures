@@ -62,6 +62,7 @@
 53. **Easy** Maximum Subarray
 54. **Medium** Spiral Matrix   
 55. **Medium** Jump Game
+56. **Medium** Merge Intervals
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 
