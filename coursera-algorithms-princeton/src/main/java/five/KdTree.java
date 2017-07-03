@@ -141,7 +141,8 @@ public class KdTree {
             if (null != n.left) {
                 return n.left.rect;
             }
-            // x-coordinate 划分，生成左半边和下半边矩阵
+            // x-coordinate 划分，生成左半边矩阵
+            // y-coordinate 划分，生成下半边矩阵
             if (n.coordinate) {
                 rect = new RectHV(temp.xmin(), temp.ymin(), n.p.x(), temp.ymax());
             } else {
