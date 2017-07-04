@@ -65,6 +65,7 @@
 56. **Medium** Merge Intervals
 57. **Hard** Insert Interval
 58. **Easy** Length of Last Word
+59. **Medium** Spiral Matrix II
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 
