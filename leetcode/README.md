@@ -68,6 +68,8 @@
 59. **Medium** Spiral Matrix II
 60. **Medium** Permutation Sequence
 61. **Medium** Rotate List
+62. **Medium** Unique Paths
+63. **Medium** Unique Paths II
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 
