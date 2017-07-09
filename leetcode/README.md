@@ -70,6 +70,7 @@
 61. **Medium** Rotate List
 62. **Medium** Unique Paths
 63. **Medium** Unique Paths II
+64. **Medium** Minimum Path Sum
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 
