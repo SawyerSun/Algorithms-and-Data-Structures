@@ -71,6 +71,7 @@
 62. **Medium** Unique Paths
 63. **Medium** Unique Paths II
 64. **Medium** Minimum Path Sum
+66. **Easy** Plus One
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 
