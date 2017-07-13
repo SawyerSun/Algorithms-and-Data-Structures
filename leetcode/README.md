@@ -73,6 +73,7 @@
 64. **Medium** Minimum Path Sum
 65. **Hard** Valid Number
 66. **Easy** Plus One
+67. **Easy** Add Binary
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 

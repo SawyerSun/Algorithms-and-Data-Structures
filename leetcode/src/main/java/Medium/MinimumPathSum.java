@@ -12,7 +12,6 @@ package Medium;
 public class MinimumPathSum {
     /**
      * Dynamic Programming Solution
-     * Tips: Should not modify the input parameter. Make copy of origin grid
      * Time Complexity: O(n * m)
      * Space Complexity: O(n * m)
      * Runtime: 4 ms
@@ -20,20 +19,20 @@ public class MinimumPathSum {
     public int minPathSum(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
-        int[][] copy = new int[m][n];
-        System.arraycopy(grid, 0, copy, 0, grid.length);
+        int[][] dp = new int[m][n];
 
+        dp[0][0] = grid[0][0];
         for (int i = 1; i < m; i++) {
-            copy[i][0] = copy[i][0] + copy[i - 1][0];
+            dp[i][0] = grid[i][0] + dp[i - 1][0];
         }
         for (int j = 1; j < n; j++) {
-            copy[0][j] = copy[0][j] + copy[0][j - 1];
+            dp[0][j] = grid[0][j] + dp[0][j - 1];
         }
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
-                copy[i][j] = copy[i][j] + Math.min(copy[i - 1][j], copy[i][j - 1]);
+                dp[i][j] = grid[i][j] + Math.min(dp[i - 1][j], dp[i][j - 1]);
             }
         }
-        return copy[m - 1][n - 1];
+        return dp[m - 1][n - 1];
     }
 }
