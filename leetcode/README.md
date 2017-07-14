@@ -74,7 +74,9 @@
 65. **Hard** Valid Number
 66. **Easy** Plus One
 67. **Easy** Add Binary
+68. **Hard** Text Justification
 69. **Easy** Sqrt(x)
+70. **Easy** Climbing Stairs
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 
