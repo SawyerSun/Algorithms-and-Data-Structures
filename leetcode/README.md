@@ -78,6 +78,7 @@
 69. **Easy** Sqrt(x)
 70. **Easy** Climbing Stairs
 71. **Medium** Simplify Path
+72. **Hard** Edit Distance
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 
