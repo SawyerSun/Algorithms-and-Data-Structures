@@ -80,6 +80,7 @@
 71. **Medium** Simplify Path
 72. **Hard** Edit Distance
 73. **Medium** Set Matrix Zeroes
+74. **Medium** Search a 2D Matrix
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 
 
