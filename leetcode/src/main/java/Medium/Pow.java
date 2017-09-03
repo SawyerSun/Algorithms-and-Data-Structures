@@ -7,13 +7,6 @@ package Medium;
  * @version 1.0    2017/6/21 20:57
  */
 public class Pow {
-    public static void main(String[] args) {
-        System.out.println(Math.pow(2.00000, -2147483648));
-        System.out.println(Math.pow(2.00000, Integer.MAX_VALUE));
-        Pow p = new Pow();
-        System.out.println(p.myPow(2.00000, -2147483648));
-    }
-
     /**
      * 递归解法，参考Math.pow函数说明，考虑各种异常情况，几种情况可以综合成一个表达式
      * <p>

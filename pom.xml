@@ -16,22 +16,20 @@
         <developer>
             <name>sawyer</name>
             <email>sawyersunyue@gmail.com</email>
-            <organization>ada.suda.edu.cn</organization>
         </developer>
     </developers>
 
     <properties>
-        <java.version>1.8</java.version>
-        <encoding.version>UTF-8</encoding.version>
-        <junit.version>4.12</junit.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
     </properties>
 
     <modules>
-        <module>leetcode</module>
-        <module>coursera-algorithms-princeton</module>
         <module>base</module>
+        <module>coursera-algorithms-princeton</module>
+        <module>leetcode</module>
         <module>sword-to-offer</module>
-        <module>newcoder-2016-campus-recruitment</module>
     </modules>
 
     <dependencyManagement>
@@ -39,7 +37,7 @@
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
-                <version>${junit.version}</version>
+                <version>4.12</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
@@ -51,10 +49,10 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.6.0</version>
+                    <version>3.5.1</version>
                     <configuration>
-                        <source>${java.version}</source>
-                        <target>${java.version}</target>
+                        <source>${maven.compiler.source}</source>
+                        <target>${maven.compiler.target}</target>
                     </configuration>
                 </plugin>
             </plugins>
