@@ -83,6 +83,8 @@
 74. **Medium** Search a 2D Matrix
 75. **Medium** Sort Colors
 76. **Hard** Minimum Window Substring
+77. **Medium** Combinations
+78. **Medium** Subsets
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 553. **Medium** Optimal Division
 
