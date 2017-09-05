@@ -85,7 +85,10 @@
 76. **Hard** Minimum Window Substring
 77. **Medium** Combinations
 78. **Medium** Subsets
+79. **Medium** Word Search
+80. **Medium** Remove Duplicates from Sorted Array II
 103. **Medium** Binary Tree Zigzag Level Order Traversal
+151. **Medium** Reverse Words in a String
 553. **Medium** Optimal Division
 
 
