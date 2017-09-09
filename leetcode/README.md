@@ -88,6 +88,8 @@
 79. **Medium** Word Search
 80. **Medium** Remove Duplicates from Sorted Array II
 81. **Medium** Search in Rotated Sorted Array II
+82. **Medium** Remove Duplicates from Sorted List II
+83. **Easy** Remove Duplicates from Sorted List
 103. **Medium** Binary Tree Zigzag Level Order Traversal
 151. **Medium** Reverse Words in a String
 553. **Medium** Optimal Division
